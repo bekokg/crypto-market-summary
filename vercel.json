@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/currency",
+            "destination": "https://user26614.requestly.tech/test/api/currency"
+        },
+        {
+            "source": "/api/market",
+            "destination": "https://user26614.requestly.tech/test/api/market"
+        }
+    ]
+}
