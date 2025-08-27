@@ -119,3 +119,42 @@ button {
         background-position: 200% 0
     }
 }
+
+/* Table container allows horizontal scroll on very small screens */
+.table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Tweak paddings + font size at smaller widths */
+@media (max-width: 900px) {
+    .container {
+        padding: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px 6px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    th,
+    td {
+        padding: 8px 6px;
+        font-size: 0.92rem;
+    }
+}
+
+/* Make form controls wrap full-width on narrow screens */
+@media (max-width: 640px) {
+
+    .input,
+    .select {
+        width: 100%;
+    }
+}
